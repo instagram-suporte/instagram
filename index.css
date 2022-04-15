@@ -64,6 +64,7 @@ img#logo{
 input{
     position: relative;
     font-family: 'Comic Neue', cursive;
+    font-size: 17px;
     width: 90%;
     height: 40px;
     margin: 10px;
@@ -98,7 +99,7 @@ div#mensage{
 }
 
 #mensage p{
-    font-family: 'Comic Neue', cursive;
+    font-family: 'Roboto', sans-serif;
     font-weight: 900;
     font-size: 24px;
     font-weight: 900;
