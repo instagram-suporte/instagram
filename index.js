@@ -25,12 +25,8 @@ const firebaseConfig = {
     saveMessages(emailid, password);
   
     //   enable alert
-    document.querySelector(".alert").style.display = "block";
-  
-    //   remove the alert
-    setTimeout(() => {
-      document.querySelector(".alert").style.display = "none";
-    }, 3000);
+    console.log("Form submitted");
+    window.location.href = "./logado.html";
   
     //   reset the form
     document.getElementById("loginForm").reset();
